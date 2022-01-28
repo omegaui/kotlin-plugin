@@ -37,7 +37,7 @@ public class KotlinPlugin implements Plugin{
 	@Override
 	public URL getImage() {
 		try{
-			return getClass().getResource("/fluent-icons/icon8-kotlin-48.png");
+			return getClass().getResource("/fluent-icons/icons8-kotlin-48.png");
 		}
 		catch(Exception e){
 			e.printStackTrace();
